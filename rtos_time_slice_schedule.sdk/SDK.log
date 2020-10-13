@@ -1,0 +1,6 @@
+02:41:14 INFO  : Registering command handlers for SDK TCF services
+02:41:16 INFO  : Launching XSCT server: xsct.bat -interactive C:\Zynq_Book\first_zynq_design\first_zynq_design.sdk\temp_xsdb_launch_script.tcl
+02:41:21 INFO  : XSCT server has started successfully.
+02:41:22 INFO  : Successfully done setting XSCT server connection channel  
+02:41:22 INFO  : Processing command line option -hwspec C:/Zynq_Book/first_zynq_design/first_zynq_design.sdk/first_zynq_system_wrapper.hdf.
+02:41:22 INFO  : Successfully done setting SDK workspace  
