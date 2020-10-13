@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;time_slice_schedule/src/freertos_hello_world.c&apos; to &apos;time_slice_schedule.c&apos;" description="Rename resource &apos;freertos_hello_world.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/freertos_hello_world.c" name="time_slice_schedule.c" stamp="1602567979275" updateReferences="true"/>
+</session>

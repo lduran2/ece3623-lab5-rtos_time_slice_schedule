@@ -1,0 +1,23 @@
+09:22:28 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79708	   3384	  89440	 172532	  2a1f4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+
+09:22:31 Build Finished (took 2s.339ms)
+

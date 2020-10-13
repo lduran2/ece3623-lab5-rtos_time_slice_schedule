@@ -1,0 +1,2382 @@
+01:35:37 **** Build of project time_slice_schedule_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+"Compiling FreeRTOS"
+arm-none-eabi-ar: creating ../../../lib/libfreertos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+01:36:30 **** Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/freertos_hello_world.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77708	   3388	  89424	 170520	  29a18	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+01:36:33 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+01:46:19 **** Clean-only build of configuration Debug for project time_slice_schedule ****
+make clean 
+rm -rf  ./src/freertos_hello_world.o  ./src/freertos_hello_world.d  time_slice_schedule.elf.size  time_slice_schedule.elf
+' '
+01:46:20 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77708	   3388	  89424	 170520	  29a18	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+02:23:36 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c:101:1: error: unknown type name 'XGpio'
+ XGpio outGpio; /* GPIO Device driver instance for the LEDs */
+ ^~~~~
+../src/time_slice_schedule.c: In function 'main':
+../src/time_slice_schedule.c:133:2: error: 'Status' undeclared (first use in this function)
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+  ^~~~~~
+../src/time_slice_schedule.c:133:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/time_slice_schedule.c:133:11: warning: implicit declaration of function 'XGpio_Initialize'; did you mean 'vListInitialise'? [-Wimplicit-function-declaration]
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+           ^~~~~~~~~~~~~~~~
+           vListInitialise
+../src/time_slice_schedule.c:133:29: error: 'Gpio' undeclared (first use in this function)
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                             ^~~~
+../src/time_slice_schedule.c:134:16: error: 'XST_SUCCESS' undeclared (first use in this function)
+  if (Status != XST_SUCCESS) {
+                ^~~~~~~~~~~
+../src/time_slice_schedule.c:135:10: error: 'XST_FAILURE' undeclared (first use in this function)
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/time_slice_schedule.c:139:2: warning: implicit declaration of function 'XGpio_SetDataDirection' [-Wimplicit-function-declaration]
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 0x0);
+  ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT1':
+../src/time_slice_schedule.c:157:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:170:3: warning: implicit declaration of function 'XGpio_DiscreteWrite' [-Wimplicit-function-declaration]
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+   ^~~~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:170:24: error: 'Gpio' undeclared (first use in this function)
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:194:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:207:24: error: 'Gpio' undeclared (first use in this function)
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+../src/time_slice_schedule.c:209:3: error: 'nT1' undeclared (first use in this function); did you mean 'nT2'?
+   nT1++;
+   ^~~
+   nT2
+../src/time_slice_schedule.c:195:6: warning: unused variable 'nT2' [-Wunused-variable]
+  int nT2 = 0; /* number of times task 1 has run */
+      ^~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:89:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:90:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:98:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:24:14 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'main':
+../src/time_slice_schedule.c:137:29: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                             ^~~~
+                             XGpio
+../src/time_slice_schedule.c:137:29: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT1':
+../src/time_slice_schedule.c:161:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:174:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:198:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:211:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+../src/time_slice_schedule.c:213:3: error: 'nT1' undeclared (first use in this function); did you mean 'nT2'?
+   nT1++;
+   ^~~
+   nT2
+../src/time_slice_schedule.c:199:6: warning: unused variable 'nT2' [-Wunused-variable]
+  int nT2 = 0; /* number of times task 1 has run */
+      ^~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:91:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:92:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:24:29 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'main':
+../src/time_slice_schedule.c:143:26: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 0x0);
+                          ^~~~
+                          XGpio
+../src/time_slice_schedule.c:143:26: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT1':
+../src/time_slice_schedule.c:161:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:174:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:198:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:211:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+../src/time_slice_schedule.c:213:3: error: 'nT1' undeclared (first use in this function); did you mean 'nT2'?
+   nT1++;
+   ^~~
+   nT2
+../src/time_slice_schedule.c:199:6: warning: unused variable 'nT2' [-Wunused-variable]
+  int nT2 = 0; /* number of times task 1 has run */
+      ^~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:91:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:92:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:25:06 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT1':
+../src/time_slice_schedule.c:161:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:161:47: note: each undeclared identifier is reported only once for each function it appears in
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:174:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:198:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:211:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+../src/time_slice_schedule.c:213:3: error: 'nT1' undeclared (first use in this function); did you mean 'nT2'?
+   nT1++;
+   ^~~
+   nT2
+../src/time_slice_schedule.c:199:6: warning: unused variable 'nT2' [-Wunused-variable]
+  int nT2 = 0; /* number of times task 1 has run */
+      ^~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:91:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:92:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:25:38 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT1':
+../src/time_slice_schedule.c:174:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+../src/time_slice_schedule.c:174:24: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:198:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:211:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+../src/time_slice_schedule.c:213:3: error: 'nT1' undeclared (first use in this function); did you mean 'nT2'?
+   nT1++;
+   ^~~
+   nT2
+../src/time_slice_schedule.c:199:6: warning: unused variable 'nT2' [-Wunused-variable]
+  int nT2 = 0; /* number of times task 1 has run */
+      ^~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:91:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:92:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:26:12 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT1':
+../src/time_slice_schedule.c:179:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 0b0000);
+                        ^~~~
+                        XGpio
+../src/time_slice_schedule.c:179:24: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:198:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:211:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+../src/time_slice_schedule.c:213:3: error: 'nT1' undeclared (first use in this function); did you mean 'nT2'?
+   nT1++;
+   ^~~
+   nT2
+../src/time_slice_schedule.c:199:6: warning: unused variable 'nT2' [-Wunused-variable]
+  int nT2 = 0; /* number of times task 1 has run */
+      ^~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:91:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:92:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:26:18 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+In file included from ../../time_slice_schedule_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/time_slice_schedule.c:62:
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:198:47: error: 'DELAY_05_SECOND' undeclared (first use in this function); did you mean 'DELAY_05_SECONDS'?
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:198:47: note: each undeclared identifier is reported only once for each function it appears in
+  const TickType_t x5secTicks = pdMS_TO_TICKS( DELAY_05_SECOND );
+                                               ^~~~~~~~~~~~~~~
+../../time_slice_schedule_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/time_slice_schedule.c:211:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+../src/time_slice_schedule.c:213:3: error: 'nT1' undeclared (first use in this function); did you mean 'nT2'?
+   nT1++;
+   ^~~
+   nT2
+../src/time_slice_schedule.c:199:6: warning: unused variable 'nT2' [-Wunused-variable]
+  int nT2 = 0; /* number of times task 1 has run */
+      ^~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:91:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:92:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:26:24 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:211:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, ledOn);
+                        ^~~~
+                        XGpio
+../src/time_slice_schedule.c:211:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/time_slice_schedule.c:213:3: error: 'nT1' undeclared (first use in this function); did you mean 'nT2'?
+   nT1++;
+   ^~~
+   nT2
+../src/time_slice_schedule.c:199:6: warning: unused variable 'nT2' [-Wunused-variable]
+  int nT2 = 0; /* number of times task 1 has run */
+      ^~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:91:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:92:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:26:52 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:221:11: error: 'nT1' undeclared (first use in this function); did you mean 'nT2'?
+   switch (nT1) {
+           ^~~
+           nT2
+../src/time_slice_schedule.c:221:11: note: each undeclared identifier is reported only once for each function it appears in
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:91:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:92:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:26:58 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c:91:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:92:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/time_slice_schedule.o: in function `main':
+C:\Zynq_Book\rtos_time_slice_schedule\rtos_time_slice_schedule.sdk\time_slice_schedule\Debug/../src/time_slice_schedule.c:127: undefined reference to `prvT3'
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Zynq_Book\rtos_time_slice_schedule\rtos_time_slice_schedule.sdk\time_slice_schedule\Debug/../src/time_slice_schedule.c:127: undefined reference to `prvT3'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: time_slice_schedule.elf] Error 1
+02:54:47 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:230:3: warning: implicit declaration of function 'vTaskSuspendUntil'; did you mean 'vTaskSuspendAll'? [-Wimplicit-function-declaration]
+   vTaskSuspendUntil(*xPreviousWakeTime, xDelayUntilTicks);
+   ^~~~~~~~~~~~~~~~~
+   vTaskSuspendAll
+../src/time_slice_schedule.c:230:21: error: invalid type argument of unary '*' (have 'TickType_t' {aka 'long unsigned int'})
+   vTaskSuspendUntil(*xPreviousWakeTime, xDelayUntilTicks);
+                     ^~~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:235:9: error: expected expression before ':' token
+    case :
+         ^
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:99:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:55:10 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:230:3: warning: implicit declaration of function 'vTaskSuspendUntil'; did you mean 'vTaskSuspendAll'? [-Wimplicit-function-declaration]
+   vTaskSuspendUntil(&xPreviousWakeTime, xDelayUntilTicks);
+   ^~~~~~~~~~~~~~~~~
+   vTaskSuspendAll
+../src/time_slice_schedule.c:235:9: error: expected expression before ':' token
+    case :
+         ^
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:99:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:55:25 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:235:9: error: expected expression before ':' token
+    case :
+         ^
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:99:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+02:56:58 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c:99:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/time_slice_schedule.o: in function `main':
+C:\Zynq_Book\rtos_time_slice_schedule\rtos_time_slice_schedule.sdk\time_slice_schedule\Debug/../src/time_slice_schedule.c:135: undefined reference to `prvT3'
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Zynq_Book\rtos_time_slice_schedule\rtos_time_slice_schedule.sdk\time_slice_schedule\Debug/../src/time_slice_schedule.c:135: undefined reference to `prvT3'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: time_slice_schedule.elf] Error 1
+02:57:46 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c:99:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/time_slice_schedule.o: in function `main':
+C:\Zynq_Book\rtos_time_slice_schedule\rtos_time_slice_schedule.sdk\time_slice_schedule\Debug/../src/time_slice_schedule.c:135: undefined reference to `prvT3'
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Zynq_Book\rtos_time_slice_schedule\rtos_time_slice_schedule.sdk\time_slice_schedule\Debug/../src/time_slice_schedule.c:135: undefined reference to `prvT3'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: time_slice_schedule.elf] Error 1
+02:58:02 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c:99:13: warning: 'prvT3' used but never defined
+ static void prvT3( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/time_slice_schedule.o: in function `main':
+C:\Zynq_Book\rtos_time_slice_schedule\rtos_time_slice_schedule.sdk\time_slice_schedule\Debug/../src/time_slice_schedule.c:135: undefined reference to `prvT3'
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Zynq_Book\rtos_time_slice_schedule\rtos_time_slice_schedule.sdk\time_slice_schedule\Debug/../src/time_slice_schedule.c:135: undefined reference to `prvT3'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: time_slice_schedule.elf] Error 1
+02:59:56 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT1':
+../src/time_slice_schedule.c:186:14: error: 'x5secTicks' undeclared (first use in this function); did you mean 'ledOnTicks'?
+   vTaskDelay(x5secTicks);
+              ^~~~~~~~~~
+              ledOnTicks
+../src/time_slice_schedule.c:186:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/time_slice_schedule.c:169:19: warning: unused variable 'ledOnTicks' [-Wunused-variable]
+  const TickType_t ledOnTicks = pdMS_TO_TICKS( DELAY_05_SECONDS );
+                   ^~~~~~~~~~
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:226:14: error: 'x5secTicks' undeclared (first use in this function); did you mean 'ledOnTicks'?
+   vTaskDelay(x5secTicks);
+              ^~~~~~~~~~
+              ledOnTicks
+../src/time_slice_schedule.c:207:19: warning: unused variable 'ledOnTicks' [-Wunused-variable]
+  const TickType_t ledOnTicks = pdMS_TO_TICKS( DELAY_05_SECONDS );
+                   ^~~~~~~~~~
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:271:14: error: 'x5secTicks' undeclared (first use in this function); did you mean 'ledOnTicks'?
+   vTaskDelay(x5secTicks);
+              ^~~~~~~~~~
+              ledOnTicks
+../src/time_slice_schedule.c:252:19: warning: unused variable 'ledOnTicks' [-Wunused-variable]
+  const TickType_t ledOnTicks = pdMS_TO_TICKS( DELAY_05_SECONDS );
+                   ^~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:00:18 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78836	   3384	  89424	 171644	  29e7c	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:01:44 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78836	   3384	  89424	 171644	  29e7c	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:01:57 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:288:40: error: 'xDelayUntilTicks' undeclared (first use in this function); did you mean 'xDelayTicks'?
+    vTaskDelayUntil(&xPreviousWakeTime, xDelayUntilTicks);
+                                        ^~~~~~~~~~~~~~~~
+                                        xDelayTicks
+../src/time_slice_schedule.c:288:40: note: each undeclared identifier is reported only once for each function it appears in
+../src/time_slice_schedule.c:253:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:02:17 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:253:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78772	   3384	  89424	 171580	  29e3c	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:02:57 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:256:7: warning: unused variable 'shouldDelay' [-Wunused-variable]
+  char shouldDelay = FALSE;
+       ^~~~~~~~~~~
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:253:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78836	   3384	  89424	 171644	  29e7c	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:04:44 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:256:7: warning: unused variable 'shouldDelay' [-Wunused-variable]
+  char shouldDelay = FALSE;
+       ^~~~~~~~~~~
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:253:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78900	   3384	  89424	 171708	  29ebc	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:04:58 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:256:7: warning: unused variable 'shouldDelay' [-Wunused-variable]
+  char shouldDelay = FALSE;
+       ^~~~~~~~~~~
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:253:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78900	   3384	  89424	 171708	  29ebc	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:06:22 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:256:7: warning: unused variable 'shouldDelay' [-Wunused-variable]
+  char shouldDelay = FALSE;
+       ^~~~~~~~~~~
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:253:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78900	   3384	  89424	 171708	  29ebc	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:11:11 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:256:7: warning: unused variable 'shouldDelay' [-Wunused-variable]
+  char shouldDelay = FALSE;
+       ^~~~~~~~~~~
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:253:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78900	   3384	  89424	 171708	  29ebc	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:11:49 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:256:7: warning: variable 'shouldDelay' set but not used [-Wunused-but-set-variable]
+  char shouldDelay = FALSE;
+       ^~~~~~~~~~~
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:253:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78900	   3384	  89424	 171708	  29ebc	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:12:08 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:255:7: warning: variable 'shouldDelay' set but not used [-Wunused-but-set-variable]
+  char shouldDelay = FALSE;
+       ^~~~~~~~~~~
+../src/time_slice_schedule.c:253:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:252:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:99:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:107:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78900	   3384	  89424	 171708	  29ebc	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:13:05 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:255:7: warning: variable 'shouldDelay' set but not used [-Wunused-but-set-variable]
+  char shouldDelay = FALSE;
+       ^~~~~~~~~~~
+../src/time_slice_schedule.c:253:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:252:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:99:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:107:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78964	   3384	  89424	 171772	  29efc	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:13:20 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:255:7: warning: variable 'shouldDelay' set but not used [-Wunused-but-set-variable]
+  char shouldDelay = FALSE;
+       ^~~~~~~~~~~
+../src/time_slice_schedule.c:253:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c:252:19: warning: unused variable 'xDelayTicks' [-Wunused-variable]
+  const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
+                   ^~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:99:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:107:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78964	   3384	  89424	 171772	  29efc	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:15:48 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:255:7: warning: variable 'shouldDelay' set but not used [-Wunused-but-set-variable]
+  char shouldDelay = FALSE;
+       ^~~~~~~~~~~
+../src/time_slice_schedule.c:253:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:99:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:107:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78964	   3384	  89424	 171772	  29efc	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:20:05 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79028	   3384	  89424	 171836	  29f3c	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:20:39 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' declared 'static' but never defined [-Wunused-function]
+ static void prvT4( void *pvParameters );
+             ^~~~~
+../src/time_slice_schedule.c:108:21: warning: 'xT4' defined but not used [-Wunused-variable]
+ static TaskHandle_t xT4;
+                     ^~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79028	   3384	  89424	 171836	  29f3c	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:21:50 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:100:13: warning: 'prvT4' used but never defined
+ static void prvT4( void *pvParameters );
+             ^~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/time_slice_schedule.o: in function `prvT3':
+C:\Zynq_Book\rtos_time_slice_schedule\rtos_time_slice_schedule.sdk\time_slice_schedule\Debug/../src/time_slice_schedule.c:279: undefined reference to `prvT4'
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Zynq_Book\rtos_time_slice_schedule\rtos_time_slice_schedule.sdk\time_slice_schedule\Debug/../src/time_slice_schedule.c:279: undefined reference to `prvT4'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: time_slice_schedule.elf] Error 1
+03:23:15 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'prvT4':
+../src/time_slice_schedule.c:327:3: error: 'nT1' undeclared (first use in this function); did you mean 'nT4'?
+   nT1++;
+   ^~~
+   nT4
+../src/time_slice_schedule.c:327:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/time_slice_schedule.c:336:9: error: 'T4_SUSPEND' undeclared (first use in this function); did you mean 'T1_SUSPEND'?
+    case T4_SUSPEND:
+         ^~~~~~~~~~
+         T1_SUSPEND
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:23:24 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'prvT4':
+../src/time_slice_schedule.c:336:9: error: 'T4_SUSPEND' undeclared (first use in this function); did you mean 'T1_SUSPEND'?
+    case T4_SUSPEND:
+         ^~~~~~~~~~
+         T1_SUSPEND
+../src/time_slice_schedule.c:336:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:23:35 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:254:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   3384	  89424	 172068	  2a024	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:27:17 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:257:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'prvT4':
+../src/time_slice_schedule.c:345:18: error: macro "taskYIELD" passed 1 arguments, but takes just 0
+     taskYIELD(xT4);
+                  ^
+../src/time_slice_schedule.c:345:5: error: 'taskYIELD' undeclared (first use in this function)
+     taskYIELD(xT4);
+     ^~~~~~~~~
+../src/time_slice_schedule.c:345:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:27:33 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:257:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79540	   3384	  89424	 172348	  2a13c	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:33:59 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+03:38:03 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:257:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79548	   3384	  89424	 172356	  2a144	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:44:28 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:258:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'delayAllTasks':
+../src/time_slice_schedule.c:357:21: error: expected identifier or '(' before '[' token
+  static TaskHandle_t[4] xT = [xT1, xT2, xT3, xT4];
+                     ^
+At top level:
+../src/time_slice_schedule.c:356:13: warning: 'delayAllTasks' defined but not used [-Wunused-function]
+ static void delayAllTasks() {
+             ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:44:39 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:258:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'delayAllTasks':
+../src/time_slice_schedule.c:357:21: error: expected identifier or '(' before '[' token
+  static TaskHandle_t[4] xT = { xT1, xT2, xT3, xT4 };
+                     ^
+At top level:
+../src/time_slice_schedule.c:356:13: warning: 'delayAllTasks' defined but not used [-Wunused-function]
+ static void delayAllTasks() {
+             ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:44:47 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:258:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'delayAllTasks':
+../src/time_slice_schedule.c:357:21: error: expected identifier or '(' before '[' token
+  static TaskHandle_t[] xT = { xT1, xT2, xT3, xT4 };
+                     ^
+At top level:
+../src/time_slice_schedule.c:356:13: warning: 'delayAllTasks' defined but not used [-Wunused-function]
+ static void delayAllTasks() {
+             ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:44:52 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:258:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'delayAllTasks':
+../src/time_slice_schedule.c:357:31: error: initializer element is not constant
+  static TaskHandle_t xT[] = { xT1, xT2, xT3, xT4 };
+                               ^~~
+../src/time_slice_schedule.c:357:31: note: (near initialization for 'xT[0]')
+../src/time_slice_schedule.c:357:36: error: initializer element is not constant
+  static TaskHandle_t xT[] = { xT1, xT2, xT3, xT4 };
+                                    ^~~
+../src/time_slice_schedule.c:357:36: note: (near initialization for 'xT[1]')
+../src/time_slice_schedule.c:357:41: error: initializer element is not constant
+  static TaskHandle_t xT[] = { xT1, xT2, xT3, xT4 };
+                                         ^~~
+../src/time_slice_schedule.c:357:41: note: (near initialization for 'xT[2]')
+../src/time_slice_schedule.c:357:46: error: initializer element is not constant
+  static TaskHandle_t xT[] = { xT1, xT2, xT3, xT4 };
+                                              ^~~
+../src/time_slice_schedule.c:357:46: note: (near initialization for 'xT[3]')
+../src/time_slice_schedule.c:357:22: warning: unused variable 'xT' [-Wunused-variable]
+  static TaskHandle_t xT[] = { xT1, xT2, xT3, xT4 };
+                      ^~
+At top level:
+../src/time_slice_schedule.c:357:22: warning: 'xT' defined but not used [-Wunused-variable]
+../src/time_slice_schedule.c:356:13: warning: 'delayAllTasks' defined but not used [-Wunused-function]
+ static void delayAllTasks() {
+             ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:44:58 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:258:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'delayAllTasks':
+../src/time_slice_schedule.c:357:30: warning: initialization of 'struct tskTaskControlBlock **' from incompatible pointer type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} [-Wincompatible-pointer-types]
+  static TaskHandle_t* xT = { xT1, xT2, xT3, xT4 };
+                              ^~~
+../src/time_slice_schedule.c:357:30: note: (near initialization for 'xT')
+../src/time_slice_schedule.c:357:30: error: initializer element is not constant
+../src/time_slice_schedule.c:357:30: note: (near initialization for 'xT')
+../src/time_slice_schedule.c:357:35: warning: excess elements in scalar initializer
+  static TaskHandle_t* xT = { xT1, xT2, xT3, xT4 };
+                                   ^~~
+../src/time_slice_schedule.c:357:35: note: (near initialization for 'xT')
+../src/time_slice_schedule.c:357:40: warning: excess elements in scalar initializer
+  static TaskHandle_t* xT = { xT1, xT2, xT3, xT4 };
+                                        ^~~
+../src/time_slice_schedule.c:357:40: note: (near initialization for 'xT')
+../src/time_slice_schedule.c:357:45: warning: excess elements in scalar initializer
+  static TaskHandle_t* xT = { xT1, xT2, xT3, xT4 };
+                                             ^~~
+../src/time_slice_schedule.c:357:45: note: (near initialization for 'xT')
+../src/time_slice_schedule.c:357:23: warning: unused variable 'xT' [-Wunused-variable]
+  static TaskHandle_t* xT = { xT1, xT2, xT3, xT4 };
+                       ^~
+At top level:
+../src/time_slice_schedule.c:357:23: warning: 'xT' defined but not used [-Wunused-variable]
+../src/time_slice_schedule.c:356:13: warning: 'delayAllTasks' defined but not used [-Wunused-function]
+ static void delayAllTasks() {
+             ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:45:16 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:258:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'delayAllTasks':
+../src/time_slice_schedule.c:357:21: error: expected identifier or '(' before '[' token
+  static TaskHandle_t[4] xT = { xT1, xT2, xT3, xT4 };
+                     ^
+At top level:
+../src/time_slice_schedule.c:356:13: warning: 'delayAllTasks' defined but not used [-Wunused-function]
+ static void delayAllTasks() {
+             ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+03:46:50 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:258:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:101:13: warning: 'delayAllTasks' declared 'static' but never defined [-Wunused-function]
+ static void delayAllTasks(); /* delays every task */
+             ^~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79548	   3384	  89424	 172356	  2a144	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+03:46:52 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:258:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: At top level:
+../src/time_slice_schedule.c:101:13: warning: 'delayAllTasks' declared 'static' but never defined [-Wunused-function]
+ static void delayAllTasks(); /* delays every task */
+             ^~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79548	   3384	  89424	 172356	  2a144	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:01:00 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c:110:8: error: unknown type name 'SemaphoreHandle_t'
+ static SemaphoreHandle_t xSemaphore;
+        ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'main':
+../src/time_slice_schedule.c:145:15: warning: implicit declaration of function 'xSemaphoreCreateBinary'; did you mean 'xSemaphoreHandle'? [-Wimplicit-function-declaration]
+  xSemaphore = xSemaphoreCreateBinary();
+               ^~~~~~~~~~~~~~~~~~~~~~
+               xSemaphoreHandle
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:264:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'waitOnSemaphore':
+../src/time_slice_schedule.c:365:9: warning: implicit declaration of function 'xSemaphoreTake'; did you mean 'xSemaphoreHandle'? [-Wimplicit-function-declaration]
+  while (xSemaphoreTake(xSemaphore, xWaitTicks) == pdFALSE) {
+         ^~~~~~~~~~~~~~
+         xSemaphoreHandle
+At top level:
+../src/time_slice_schedule.c:363:13: warning: 'waitOnSemaphore' defined but not used [-Wunused-function]
+ static void waitOnSemaphore( void ) {
+             ^~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+04:02:53 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c:110:8: error: unknown type name 'SemaphoreHandle_t'
+ static SemaphoreHandle_t xSemaphore;
+        ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'main':
+../src/time_slice_schedule.c:145:15: warning: implicit declaration of function 'xSemaphoreCreateBinary'; did you mean 'xSemaphoreHandle'? [-Wimplicit-function-declaration]
+  xSemaphore = xSemaphoreCreateBinary();
+               ^~~~~~~~~~~~~~~~~~~~~~
+               xSemaphoreHandle
+../src/time_slice_schedule.c: In function 'prvT2':
+../src/time_slice_schedule.c:261:3: warning: implicit declaration of function 'xSemaphoreGive'; did you mean 'xSemaphoreHandle'? [-Wimplicit-function-declaration]
+   xSemaphoreGive(xSemaphore);
+   ^~~~~~~~~~~~~~
+   xSemaphoreHandle
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:270:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+../src/time_slice_schedule.c: In function 'waitOnSemaphore':
+../src/time_slice_schedule.c:380:9: warning: implicit declaration of function 'xSemaphoreTake'; did you mean 'xSemaphoreHandle'? [-Wimplicit-function-declaration]
+  while (xSemaphoreTake(xSemaphore, xWaitTicks) == pdFALSE) {
+         ^~~~~~~~~~~~~~
+         xSemaphoreHandle
+make: *** [src/subdir.mk:23: src/time_slice_schedule.o] Error 1
+04:03:59 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:270:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   3384	  89440	 172660	  2a274	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:04:10 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:05:33 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:273:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   3384	  89440	 172660	  2a274	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:05:39 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:07:54 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:276:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   3384	  89440	 172724	  2a2b4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:08:14 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:10:47 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:277:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   3384	  89440	 172724	  2a2b4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:10:54 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:12:29 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:277:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   3384	  89440	 172724	  2a2b4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:12:38 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:276:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   3384	  89440	 172724	  2a2b4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:12:44 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:276:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   3384	  89440	 172724	  2a2b4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:12:52 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:14:25 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:276:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   3384	  89440	 172724	  2a2b4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:14:56 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:274:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   3384	  89440	 172724	  2a2b4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:15:04 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:17:57 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:277:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   3384	  89440	 172724	  2a2b4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:18:11 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+../src/time_slice_schedule.c: In function 'prvT3':
+../src/time_slice_schedule.c:277:13: warning: unused variable 'xPreviousWakeTime' [-Wunused-variable]
+  TickType_t xPreviousWakeTime;
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   3384	  89440	 172724	  2a2b4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:18:41 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   3384	  89440	 172724	  2a2b4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:19:02 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:22:58 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   3384	  89440	 172660	  2a274	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:23:08 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:24:10 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:42:24 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   3384	  89440	 172660	  2a274	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:42:29 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:47:13 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   3384	  89440	 172660	  2a274	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:47:25 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:49:09 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79772	   3384	  89440	 172596	  2a234	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:50:39 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79772	   3384	  89440	 172596	  2a234	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:50:45 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:54:43 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79772	   3384	  89440	 172596	  2a234	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:54:50 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:55:14 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   3384	  89440	 172660	  2a274	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:55:21 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+04:57:57 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79708	   3384	  89440	 172532	  2a1f4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+04:58:07 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+05:06:28 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+05:07:24 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79708	   3384	  89440	 172532	  2a1f4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+05:07:34 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79708	   3384	  89440	 172532	  2a1f4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+05:07:43 **** Incremental Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+09:22:23 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79708	   3384	  89440	 172532	  2a1f4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
+09:22:28 **** Auto Build of configuration Debug for project time_slice_schedule ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/time_slice_schedule.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/time_slice_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../time_slice_schedule_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/time_slice_schedule.d" -MT"src/time_slice_schedule.o" -o "src/time_slice_schedule.o" "../src/time_slice_schedule.c"
+'Finished building: ../src/time_slice_schedule.c'
+' '
+'Building target: time_slice_schedule.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../time_slice_schedule_bsp/ps7_cortexa9_0/lib -o "time_slice_schedule.elf"  ./src/time_slice_schedule.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: time_slice_schedule.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size time_slice_schedule.elf  |tee "time_slice_schedule.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79708	   3384	  89440	 172532	  2a1f4	time_slice_schedule.elf
+'Finished building: time_slice_schedule.elf.size'
+' '
