@@ -31,12 +31,15 @@
  *
  *  Created on: 	13 October 2020
  *      Author: 	Leomar Duran
- *     Version:		1.1
+ *     Version:		1.2
  */
 
 /********************************************************************************************
 * VERSION HISTORY
 ********************************************************************************************
+*	v1.2 - 13 October 2020
+*		Finished using for loops and priority context switching.
+*
 *	v1.1 - 13 October 2020
 *		Attempted to solve using semaphores.
 *
@@ -45,20 +48,20 @@
 *******************************************************************************************/
 /*
  * Each task T(n+1) activates LED LDn for 5 seconds, then deactivates
- * it, and performs task handling opporations as follows:
+ * it, and performs task handling operations as follows:
  *
- * T1-P5
+ * T1-P4
  *     after running 2x, suspend
- * T2-P5
+ * T2-P4
  *     after running 4x, delay until 60 sec
  *     after running 5x, priority 2
  * T3-P3
- *     after running 3x, create task4
+ *     after running 4x, create task4
  *     after running 6x, resume T1
  *     after running 6x + 3, delay 20 sec
  *     after running 8x, delete T2
  * T4-P1
- *     after running 4x, yield
+ *     after running 3x, yield
  */
 
 /* FreeRTOS includes. */
@@ -74,22 +77,24 @@
 #include "xstatus.h"
 
 /* Delay definitions */
-#define DELAY_200_MS	 	  200UL
-#define DELAY_05_SECONDS	 5000UL
-#define DELAY_20_SECONDS	20000UL
-#define DELAY_60_SECONDS	60000UL
+#define DELAY_200_MS	 	  	200UL
+/* for loop 12 * 406919936UL = 60.04 sec, 12 * 406309962UL = 59.95 sec */
+#define FOR_DELAY_05_SECONDS	406309962UL
+#define DELAY_20_SECONDS		20000UL
+#define DELAY_60_SECONDS		60000UL
 /*-----------------------------------------------------------*/
 
 /* Task mile stones */
+#define configMAX_PRIORITIES	(tskIDLE_PRIORITY + 5)	/* higher priority than any task */
 #define	T1_SUSPEND			2	/* suspend after 2 turns = 20 sec */
 #define T2_DELAY_UNTIL		4	/* delay until 60 seconds after 4 turns = 45 sec */
 #define T2_P2				5	/* go priority 2 after 5 turns = 65 sec */
-#define T3_T4				3	/* create task 4 after 3 turns = 40 sec */
+#define T3_T4				4	/* create task 4 after 4 turns = 50 sec */
 #define T3_RESUME_T1		6	/* resume task 1 after 6 turns = 75 sec */
 #define T3_START_DELAYS		6	/* start delaying after 6 turns = 75 sec */
-#define T3_DELAY			3	/* delay every 3 turns */
+#define T3_DELAY			3	/* delay every 3 turns after T3_START_DELAYS */
 #define T3_DELETE_T2		8	/* delete T2 after 8 turns = 110 sec */
-#define T4_YIELD			4	/* yield after 4 turns = 90 sec */
+#define T4_YIELD			3	/* yield after 3 turns = 90 sec */
 /*-----------------------------------------------------------*/
 
 /* GPIO definitions */
@@ -103,8 +108,6 @@ static void prvT1( void *pvParameters );
 static void prvT2( void *pvParameters );
 static void prvT3( void *pvParameters );
 static void prvT4( void *pvParameters );
-static void waitOnSemaphore( void );	/* wait for the Semaphore before continuing */
-static void yield( void );	/* release semaphore and move to next task */
 /*-----------------------------------------------------------*/
 
 /* Task handles for the tasks, as described at the top of this
@@ -113,7 +116,12 @@ static TaskHandle_t xT1;
 static TaskHandle_t xT2;
 static TaskHandle_t xT3;
 static TaskHandle_t xT4;
-static SemaphoreHandle_t xSemaphore;
+/* priorities for each task */
+static UBaseType_t priorityT1;
+static UBaseType_t priorityT2;
+static UBaseType_t priorityT3;
+static UBaseType_t priorityT4;
+char shouldT3CleanUp;	/* should task 3 perform final task cleanup? */
 /*-----------------------------------------------------------*/
 
 XGpio OutInst;	/* GPIO Device driver instance for the LEDs */
@@ -123,34 +131,33 @@ int main( void )
 {
 	int Status;
 
+
 	xil_printf( "Starting tasks 1 - 3. . .\n" );
 
 	/* Create 3 of four tasks. */
-	xTaskCreate( 	prvT1, 					/* The function that implements the task. */
+	xTaskCreate( 	prvT1, 						/* The function that implements the task. */
 					( const char * ) "Task1", 	/* Text name for the task, provided to assist debugging only. */
 					configMINIMAL_STACK_SIZE, 	/* The stack allocated to the task. */
 					NULL, 						/* The task parameter is not used, so set to NULL. */
-					tskIDLE_PRIORITY + 5,		/* The task runs at the idle priority. */
+					priorityT1 = tskIDLE_PRIORITY + 4,	/* The task runs at the idle priority. */
 					&xT1 );
 
 	xTaskCreate( prvT2,
 				 ( const char * ) "Task2",
 				 configMINIMAL_STACK_SIZE,
 				 NULL,
-				 tskIDLE_PRIORITY + 5,
+				 priorityT2 = tskIDLE_PRIORITY + 4,
 				 &xT2 );
 
 	xTaskCreate( prvT3,
 				 ( const char * ) "Task3",
 				 configMINIMAL_STACK_SIZE,
 				 NULL,
-				 tskIDLE_PRIORITY + 3,
+				 priorityT3 = tskIDLE_PRIORITY + 3,
 				 &xT3 );
 
-	/* create a Semaphore to direct the tasks */
-	xSemaphore = xSemaphoreCreateMutex();
-	/* Check the Semaphore was created. */
-	configASSERT( xSemaphore );
+	/* task 3 cleans up until task 4 is running */
+	shouldT3CleanUp = TRUE;
 
 	xil_printf( "Initializing GPIO for LEDs. . .\n" );
 
@@ -163,10 +170,7 @@ int main( void )
 	/*Set the direction for the LEDs to output. */
 	XGpio_SetDataDirection(&OutInst, LED_CHANNEL, 0x0);
 
-	/* release the semaphore */
-	xSemaphoreGive(xSemaphore);
-
-	/* Start the tasks and timer running. */
+	///* Start the tasks and timer running. */
 	vTaskStartScheduler();
 
 	xil_printf( "Good to go!\n" );
@@ -176,13 +180,13 @@ int main( void )
 	insufficient FreeRTOS heap memory available for the idle and/or timer tasks
 	to be created.  See the memory management section on the FreeRTOS web site
 	for more details. */
-	for( ;; );
+	for( ;; ) {}
 }
 
 /*-----------------------------------------------------------*/
 static void prvT1( void *pvParameters )
 {
-	const TickType_t xLedOnTicks = pdMS_TO_TICKS( DELAY_05_SECONDS );
+	int unsigned iLedDelay;
 	int nT1 = 0;	/* number of times task has run */
 
 	/* LED values */
@@ -192,8 +196,8 @@ static void prvT1( void *pvParameters )
 
 	for( ;; )
 	{
-		waitOnSemaphore();
-
+		/* raise priority to max */
+		vTaskPrioritySet(NULL, configMAX_PRIORITIES);
 		xil_printf( "\tTask1 on!\n" );
 
 		/* Write output to the LEDs. */
@@ -201,11 +205,7 @@ static void prvT1( void *pvParameters )
 		/* update count */
 		nT1++;
 		/* keep LED on */
-		vTaskDelay(xLedOnTicks);
-		/* release semaphore and time slice */
-		yield();
-		/* deactivate LED */
-		// XGpio_DiscreteWrite(&OutInst, LED_CHANNEL, 0b0000);
+		for (iLedDelay = FOR_DELAY_05_SECONDS; --iLedDelay; ) {}
 
 		/* milestones */
 		switch (nT1) {
@@ -219,13 +219,16 @@ static void prvT1( void *pvParameters )
 				break;
 		} /* end switch (nT1) */
 
+		/* context switch */
+		/* lower priority of self to idle */
+		vTaskPrioritySet(NULL, tskIDLE_PRIORITY);
 	}
 }
 
 /*-----------------------------------------------------------*/
 static void prvT2( void *pvParameters )
 {
-	const TickType_t xLedOnTicks = pdMS_TO_TICKS( DELAY_05_SECONDS );
+	int unsigned iLedDelay;
 	const TickType_t xDelayUntilTicks = pdMS_TO_TICKS( DELAY_60_SECONDS );
 	TickType_t xPreviousWakeTime;
 	int nT2 = 0;	/* number of times task has run */
@@ -237,8 +240,8 @@ static void prvT2( void *pvParameters )
 
 	for( ;; )
 	{
-		waitOnSemaphore();
-
+		/* raise priority to max */
+		vTaskPrioritySet(NULL, configMAX_PRIORITIES);
 		xil_printf( "\t\tTask2 on!\n" );
 
 		/* Write output to the LEDs. */
@@ -246,18 +249,14 @@ static void prvT2( void *pvParameters )
 		/* update count */
 		nT2++;
 		/* keep LED on */
-		vTaskDelay(xLedOnTicks);
-		/* release semaphore and time slice */
-		yield();
-		/* deactivate LED */
-		// XGpio_DiscreteWrite(&OutInst, LED_CHANNEL, 0b0000);
+		for (iLedDelay = FOR_DELAY_05_SECONDS; --iLedDelay; ) {}
 
 		/* once-in-a-lifetime milestones */
 		switch (nT2) {
 			/* change priority to P2 after 65 sec */
 			case T2_P2:
 				xil_printf( "\t\tTask2 priority 2.\n" );
-				vTaskPrioritySet(xT2, tskIDLE_PRIORITY + 2);
+				priorityT2 = tskIDLE_PRIORITY + 2;
 				break;
 			default:
 				// no-op
@@ -269,13 +268,17 @@ static void prvT2( void *pvParameters )
 			xil_printf( "\t\tTask2 delayed until 60 sec.\n" );
 			vTaskDelayUntil(&xPreviousWakeTime, xDelayUntilTicks);
 		} /* end if (nT2 >= T2_DELAY_UNTIL) */
+
+		/* context switch */
+		/* lower priority of self to idle */
+		vTaskPrioritySet(NULL, tskIDLE_PRIORITY);
 	}
 }
 
 /*-----------------------------------------------------------*/
 static void prvT3( void *pvParameters )
 {
-	const TickType_t xLedOnTicks = pdMS_TO_TICKS( DELAY_05_SECONDS );
+	int unsigned iLedDelay;
 	const TickType_t xDelayTicks = pdMS_TO_TICKS( DELAY_20_SECONDS );
 	int nT3 = 0;	/* number of times task has run */
 
@@ -286,8 +289,8 @@ static void prvT3( void *pvParameters )
 
 	for( ;; )
 	{
-		waitOnSemaphore();
-
+		/* raise priority to max */
+		vTaskPrioritySet(NULL, configMAX_PRIORITIES);
 		xil_printf( "\t\t\tTask3 on!\n" );
 
 		/* Write output to the LEDs. */
@@ -295,11 +298,7 @@ static void prvT3( void *pvParameters )
 		/* update count */
 		nT3++;
 		/* keep LED on */
-		vTaskDelay(xLedOnTicks);
-		/* release semaphore and time slice */
-		yield();
-		/* deactivate LED */
-		// XGpio_DiscreteWrite(&OutInst, LED_CHANNEL, 0b0000);
+		for (iLedDelay = FOR_DELAY_05_SECONDS; --iLedDelay; ) {}
 
 		/* once-in-a-lifetime milestones */
 		switch (nT3) {
@@ -310,7 +309,7 @@ static void prvT3( void *pvParameters )
 							 ( const char * ) "Task4",
 							 configMINIMAL_STACK_SIZE,
 							 NULL,
-							 tskIDLE_PRIORITY + 1,
+							 priorityT4 = tskIDLE_PRIORITY + 1,
 							 &xT4 );
 				break;
 			/* resume T1 after 75 sec, and start delaying */
@@ -336,13 +335,28 @@ static void prvT3( void *pvParameters )
 			xil_printf( "\t\t\tTask3 delayed for 20 sec.\n" );
 			vTaskDelay(xDelayTicks);
 		} /* end if (!((nT3 - T3_RESUME_T1) % T3_DELAY)) */
+
+		/* context switch */
+		/* if task 4 does not exist yet or is yielding */
+		/* at time T3_T4, task 4 will be created, so let task 4 handle it */
+		if ((shouldT3CleanUp == TRUE) || (nT3 != T3_T4)) {
+			/* restore all priorities */
+			vTaskPrioritySet(xT1, priorityT1);
+			vTaskPrioritySet(xT2, priorityT2);
+			vTaskPrioritySet(NULL, priorityT3);
+		}
+		/* if task 4 exists */
+		else {
+			/* lower priority of self to idle */
+			vTaskPrioritySet(NULL, tskIDLE_PRIORITY);
+		}
 	}
 }
 
 /*-----------------------------------------------------------*/
 static void prvT4( void *pvParameters )
 {
-	const TickType_t xLedOnTicks = pdMS_TO_TICKS( DELAY_05_SECONDS );
+	int unsigned iLedDelay;
 	int nT4 = 0;	/* number of times task has run */
 
 	/* LED values */
@@ -352,8 +366,9 @@ static void prvT4( void *pvParameters )
 
 	for( ;; )
 	{
-		waitOnSemaphore();
-
+		shouldT3CleanUp = FALSE;	/* take over for T3 in cleaning up */
+		/* raise priority to max */
+		vTaskPrioritySet(NULL, configMAX_PRIORITIES);
 		xil_printf( "\t\t\t\tTask4 on!\n" );
 
 		/* Write output to the LEDs. */
@@ -361,37 +376,27 @@ static void prvT4( void *pvParameters )
 		/* update count */
 		nT4++;
 		/* keep LED on */
-		vTaskDelay(xLedOnTicks);
-		/* release semaphore and time slice */
-		yield();
-		/* deactivate LED */
-		// XGpio_DiscreteWrite(&OutInst, LED_CHANNEL, 0b0000);
+		for (iLedDelay = FOR_DELAY_05_SECONDS; --iLedDelay; ) {}
 
 		/* milestones */
 		switch (nT4) {
 			/* suspend self after 20 seconds */
 			case T4_YIELD:
 				xil_printf( "\t\t\t\tTask4 yields.\n" );
+				shouldT3CleanUp = TRUE;	/* let T3 clean up again for now */
 				taskYIELD();
 				break;
 			default:
 				// no-op
 				break;
 		} /* end switch (nT4) */
+
+		/* context switch */
+		/* restore all priorities */
+		vTaskPrioritySet(xT1, priorityT1);
+		vTaskPrioritySet(xT2, priorityT2);
+		vTaskPrioritySet(xT3, priorityT3);
+		vTaskPrioritySet(NULL, priorityT4);
 	}
-}
 
-/*-----------------------------------------------------------*/
-static void waitOnSemaphore( void ) {
-	//const TickType_t xWaitTicks = pdMS_TO_TICKS( DELAY_05_SECONDS );
-	while (xSemaphoreTake(xSemaphore, (TickType_t)0) == pdFALSE) {
-		// no-op
-	};
-}
-
-static void yield( void ) {
-	/* release the semaphore */
-	xSemaphoreGive(xSemaphore);
-	/* move to next task */
-	taskYIELD();
 }
